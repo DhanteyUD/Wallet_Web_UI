@@ -3,11 +3,11 @@
 export const series: ApexAxisChartSeries | ApexNonAxisChartSeries | undefined =
   [
     {
-      name: 'offline sales',
+      name: 'Offline sales',
       data: [50, 200, 400, 250, 400, 600, 770],
     },
     {
-      name: 'online sales',
+      name: 'Online sales',
       data: [220, 600, 780, 670, 580, 350, 400],
     },
   ];
@@ -36,7 +36,16 @@ export const options: ApexCharts.ApexOptions | undefined = {
     position: 'top',
     horizontalAlign: 'center',
     floating: true,
-    offsetY: 0,
-    offsetX: 10,
+    fontSize: "11px",
+    fontFamily: "Poppins, Arial",
+    fontWeight: 600,
+    offsetY: -5,
+    offsetX: 0,
+    markers: {
+      width: 8,
+      height: 8,
+      strokeWidth: 0,
+      radius: 12
+    },
   }
 };
