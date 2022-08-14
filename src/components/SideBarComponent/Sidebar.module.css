@@ -1,0 +1,57 @@
+/** @format */
+
+.sidebar {
+  background-color: black;
+  width: 20rem;
+  height: 100%;
+  position: relative;
+}
+
+.pic {
+  margin-bottom: 1rem;
+}
+.pic > img {
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: auto;
+  width: 3rem;
+}
+
+.profileContainer {
+  padding: 3rem 4rem 2rem 3rem;
+}
+
+.profile {
+  font-size: large;
+}
+
+.name {
+  color: #ffffff;
+}
+
+.email {
+  color: lightslategray;
+}
+
+.Logout {
+  position: absolute;
+  bottom: 3%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  
+  .sidebar {
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    display: block;
+  }
+
+  .profileContainer {
+    display: block;
+  }
+
+  
+}
