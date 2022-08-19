@@ -49,7 +49,7 @@ const BarChart: FC<{ data: { title: string; value: number }[] }> = ({
         >
           Customers Activity
         </h3>
-        <ul style={{ position: 'relative', top: '25px', left: '15px', color: '#fff', fontSize: 12 }}>
+        <ul className="activity-dot">
           <li style={{ marginTop: '-13px' }}></li>
           <li style={{ marginTop: '-12px' }}></li>
           <li style={{ marginTop: '-12px' }}></li>
